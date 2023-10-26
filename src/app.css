@@ -1,0 +1,93 @@
+:root {
+	--background-color: #101b39;
+	--header-color: #b4b1b8;
+	--secondary-color: #333136;
+	--light: #b4b1b8;
+	--secondary-light: #e9e8ee;
+}
+
+body {
+	font-family: "M PLUS 1 Code", monospace !important;
+	color: var(--secondary-light);
+	background-color: black !important;
+}
+
+nav a {
+	padding: 0 2rem;
+	color: var(--secondary-light) !important;
+}
+
+.nav-link {
+	margin: 0 1rem;
+}
+
+.navbar-nav a {
+	color: var(--light) !important;
+}
+
+.navbar-nav a:hover {
+	color: var(--secondary-light) !important;
+}
+
+.navbar-toggle .icon-bar {
+	width: 50px !important;
+	height: 3px !important;
+}
+
+nav button {
+	border: none;
+	background-color: var(--secondary-light) !important;
+}
+
+.hoverable {
+	display: inline-block;
+	backface-visibility: hidden;
+	vertical-align: middle;
+	position: relative;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transform: translateZ(0);
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
+
+.hoverable:before {
+	position: absolute;
+	pointer-events: none;
+	z-index: -1;
+	content: "";
+	top: 100%;
+	left: 5%;
+	height: 10px;
+	width: 90%;
+	opacity: 0;
+	background: -webkit-radial-gradient(
+		center,
+		ellipse,
+		rgba(255, 255, 255, 0.35) 0%,
+		rgba(255, 255, 255, 0) 80%
+	);
+	background: radial-gradient(
+		ellipse at center,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 0) 80%
+	);
+	transition-duration: 0.3s;
+	transition-property: transform, opacity;
+}
+
+.hoverable:hover,
+.hoverable:active,
+.hoverable:focus {
+	transform: translateY(-5px);
+}
+.hoverable:hover:before,
+.hoverable:active:before,
+.hoverable:focus:before {
+	opacity: 1;
+	transform: translateY(-5px);
+}
+
+h1 {
+	color: aqua !important;
+	z-index: 1;
+}
