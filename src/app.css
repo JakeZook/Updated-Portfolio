@@ -22,11 +22,11 @@ nav a {
 }
 
 .navbar-nav a {
-	color: var(--light) !important;
+	color: var(--secondary-light) !important;
 }
 
 .navbar-nav a:hover {
-	color: var(--secondary-light) !important;
+	color: var(--light) !important;
 }
 
 .navbar-toggle .icon-bar {
@@ -36,6 +36,10 @@ nav a {
 
 nav button {
 	border: none;
+	background-color: white !important;
+}
+
+nav button:hover {
 	background-color: var(--secondary-light) !important;
 }
 
@@ -87,7 +91,10 @@ nav button {
 	transform: translateY(-5px);
 }
 
-h1 {
-	color: aqua !important;
-	z-index: 1;
+svg {
+	color: var(--secondary-light);
+}
+
+svg:hover {
+	color: var(--light);
 }

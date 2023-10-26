@@ -17,7 +17,7 @@ const ParticlesComponent = (props) => {
 					enable: true,
 					outModes: "out",
 					random: true,
-					speed: 1,
+					speed: 0.75,
 					straight: false,
 				},
 				number: {
@@ -30,14 +30,13 @@ const ParticlesComponent = (props) => {
 				opacity: {
 					animation: {
 						enable: true,
-						speed: 0.05,
+						speed: 0.5,
 						sync: true,
-						startValue: "max",
+						startValue: "min",
 						count: 1,
-						destroy: "min",
 					},
 					value: {
-						min: 0.1,
+						min: 0.25,
 						max: 1,
 					},
 				},
@@ -45,7 +44,7 @@ const ParticlesComponent = (props) => {
 					type: "circle",
 				},
 				size: {
-					value: { min: 1, max: 1.5 },
+					value: { min: 1, max: 3 },
 				},
 			},
 		};
