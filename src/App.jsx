@@ -12,7 +12,7 @@ function App() {
 			<Particles id="tsparticles" />
 			<CursorGlow />
 			<Nav />
-			<main className="m-5">
+			<main className="m-5 p-5">
 				<Outlet />
 			</main>
 			<Footer />
