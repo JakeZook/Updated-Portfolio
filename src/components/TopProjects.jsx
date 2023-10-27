@@ -82,7 +82,7 @@ export default function TopProjects() {
 			<div className="card col-lg-3 m-4">
 				<div className="card-body">
 					<h5 className="card-title">ZookChat</h5>
-					<p className="card-text">Video Chat Application</p>
+					<p className="card-text">Video and Text Chat Application</p>
 					<div className="d-flex flex-column">
 						<div className="vc-pic mx-auto mb-3">
 							<img

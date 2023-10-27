@@ -135,3 +135,23 @@ nav button:hover {
 		margin-right: 3.75rem !important;
 	}
 }
+
+@media screen and (max-width: 1000px) {
+	.card-buttons {
+		flex-direction: column;
+	}
+
+	.card-buttons a {
+		margin-top: 1rem !important;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#nav-badges {
+		display: none !important;
+	}
+
+	#dropdown-badges {
+		display: flex !important;
+	}
+}

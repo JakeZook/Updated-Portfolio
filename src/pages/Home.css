@@ -112,13 +112,3 @@ img {
 		margin-bottom: 2rem;
 	}
 }
-
-@media screen and (max-width: 1000px) {
-	.card-buttons {
-		flex-direction: column;
-	}
-
-	.card-buttons a {
-		margin-top: 1rem !important;
-	}
-}
