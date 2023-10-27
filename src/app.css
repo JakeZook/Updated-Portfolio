@@ -152,7 +152,7 @@ footer svg {
 
 @media only screen and (max-width: 993px) {
 	.navbar-nav {
-		background-color: var(--background-color);
+		background-color: var(--secondary-color);
 	}
 }
 

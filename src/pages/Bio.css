@@ -1,0 +1,13 @@
+.list {
+	margin-top: 1rem !important;
+}
+
+.langList {
+	list-style: none !important;
+	padding: 0 !important;
+}
+
+#workHistory h6,
+#education h6 {
+	color: var(--secondary-light) !important;
+}

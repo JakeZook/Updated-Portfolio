@@ -7,6 +7,7 @@ import "./app.css";
 
 import App from "./App.jsx";
 import Home from "./pages/Home";
+import Bio from "./pages/Bio";
 import Projects from "./pages/Projects";
 import Error from "./pages/Error";
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
 			{
 				index: true,
 				element: <Home />,
+			},
+			{
+				path: "/Bio",
+				element: <Bio />,
 			},
 			{
 				path: "/Projects",
