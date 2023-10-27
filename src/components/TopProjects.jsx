@@ -32,7 +32,7 @@ export default function TopProjects() {
 						</a>
 						<a
 							href="https://shrednstyle-a1ce73eecb82.herokuapp.com/"
-							className="transparent-button"
+							className="transparent-button mt-2"
 							target="_blank"
 						>
 							Demo

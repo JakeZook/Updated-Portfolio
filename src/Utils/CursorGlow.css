@@ -8,7 +8,7 @@
 	mix-blend-mode: screen;
 	animation: pulse 1.5s infinite;
 	box-shadow: 0 0 20px rgb(0, 157, 255);
-	z-index: 5;
+	z-index: 10;
 }
 
 @keyframes pulse {

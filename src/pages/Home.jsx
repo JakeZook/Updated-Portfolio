@@ -22,7 +22,10 @@ export default function Home() {
 					</a>
 				</div>
 			</div>
-			<div className="row d-flex justify-content-center mt-5 mb-5 pb-5">
+			<div
+				className="row d-flex justify-content-center mt-5 mb-5 pb-5"
+				id="projectsTab"
+			>
 				<div className="col-lg-3 col-sm-12 d-flex text-center justify-content-around align-items-center flex-column">
 					<div className="circular-profile-pic mx-auto">
 						<svg

@@ -111,4 +111,12 @@ img {
 	#header {
 		margin-bottom: 2rem;
 	}
+
+	#projectsTab {
+		flex-direction: column-reverse;
+	}
+
+	#header-projects {
+		margin-bottom: 2rem;
+	}
 }
