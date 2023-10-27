@@ -1,8 +1,8 @@
 export default function Nav() {
 	return (
-		<nav className="navbar navbar-expand-lg">
+		<nav className="navbar navbar-expand-lg fixed-top">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
+				<a className="navbar-brand" href="/">
 					Jake Zook
 				</a>
 				<button
@@ -21,11 +21,11 @@ export default function Nav() {
 						<a
 							className="nav-link active hoverable"
 							aria-current="page"
-							href="#"
+							href="/"
 						>
-							Bio
+							Home
 						</a>
-						<a className="nav-link hoverable" href="#">
+						<a className="nav-link hoverable" href="/Projects">
 							Projects
 						</a>
 						<a className="nav-link hoverable" href="#">

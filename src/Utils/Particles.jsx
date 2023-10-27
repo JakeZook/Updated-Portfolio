@@ -5,46 +5,59 @@ import { useCallback, useMemo } from "react";
 const ParticlesComponent = (props) => {
 	const options = useMemo(() => {
 		return {
-			fpsLimit: 60,
-			fullScreen: {
-				enable: true,
-				zIndex: -1,
+			background: {
+				color: "none",
+			},
+			detectRetina: false,
+			fpsLimit: 30,
+			interactivity: {
+				detectsOn: "canvas",
+				events: {
+					resize: true,
+				},
 			},
 			particles: {
-				color: { value: "#ffffff" },
+				color: {
+					value: "#fff",
+				},
 				move: {
 					direction: "none",
 					enable: true,
 					outModes: "out",
-					random: true,
-					speed: 0.75,
+					random: false,
+					speed: 0.1,
 					straight: false,
 				},
 				number: {
 					density: {
 						enable: true,
-						area: 800,
+						area: 1080,
 					},
-					value: 100,
+					limit: 0,
+					value: 400,
 				},
 				opacity: {
 					animation: {
 						enable: true,
-						speed: 0.5,
-						sync: true,
-						startValue: "min",
-						count: 1,
+						minimumValue: 0.05,
+						speed: 1,
+						sync: false,
 					},
-					value: {
-						min: 0.25,
-						max: 1,
+					random: {
+						enable: true,
+						minimumValue: 0.05,
 					},
+					value: 1,
 				},
 				shape: {
 					type: "circle",
 				},
 				size: {
-					value: { min: 1, max: 3 },
+					random: {
+						enable: true,
+						minimumValue: 0.5,
+					},
+					value: 2,
 				},
 			},
 		};

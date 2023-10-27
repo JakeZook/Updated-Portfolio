@@ -4,17 +4,28 @@
 	--secondary-color: #333136;
 	--light: #b4b1b8;
 	--secondary-light: #e9e8ee;
+
+	cursor: none;
 }
 
-body {
+body,
+main {
 	font-family: "M PLUS 1 Code", monospace !important;
 	color: var(--secondary-light);
 	background-color: black !important;
+
+	cursor: none !important;
+}
+
+a {
+	cursor: none !important;
 }
 
 nav a {
 	padding: 0 2rem;
 	color: var(--secondary-light) !important;
+
+	font-size: 1.5rem !important;
 }
 
 .nav-link {
@@ -27,6 +38,8 @@ nav a {
 
 .navbar-nav a:hover {
 	color: var(--light) !important;
+
+	cursor: none !important;
 }
 
 .navbar-toggle .icon-bar {
@@ -93,11 +106,13 @@ nav button:hover {
 
 .badge a {
 	color: var(--secondary-light);
+	border-color: transparent !important;
 }
 
 .badge a:hover {
 	color: var(--light);
-	-webkit-box-shadow: 0px 0px 105px 45px rgba(255, 255, 255, 0.9);
-	-moz-box-shadow: 0px 0px 105px 45px rgba(255, 255, 255, 0.9);
-	box-shadow: 0px 0px 105px 45px rgba(255, 255, 255, 0.9);
+	border-color: transparent !important;
+	-webkit-box-shadow: 0px 45px 25px rgba(255, 255, 255, 0.9);
+	-moz-box-shadow: 0px 0px 45px 25px rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 0px 45px 25px rgba(255, 255, 255, 0.9);
 }

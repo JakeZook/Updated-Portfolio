@@ -1,13 +1,13 @@
 export default function Footer() {
 	return (
 		<footer className="fixed-bottom p-5">
-			<div className="row text-center">
-				<div className="col-3 badge">
+			<div className="row text-center d-flex justify-content-center">
+				<div className="col-2 badge">
 					<a href="" className="border rounded-circle">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="32"
-							height="32"
+							width="24"
+							height="24"
 							fill="currentColor"
 							className="bi bi-linkedin"
 							viewBox="0 0 16 16"
@@ -16,12 +16,12 @@ export default function Footer() {
 						</svg>
 					</a>
 				</div>
-				<div className="col-3 badge">
+				<div className="col-2 badge">
 					<a href="" className="border rounded-circle">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="32"
-							height="32"
+							width="24"
+							height="24"
 							fill="currentColor"
 							className="bi bi-github"
 							viewBox="0 0 16 16"
@@ -30,12 +30,12 @@ export default function Footer() {
 						</svg>
 					</a>
 				</div>
-				<div className="col-3 badge">
+				<div className="col-2 badge">
 					<a href="" className="border rounded-circle">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="32"
-							height="32"
+							width="24"
+							height="24"
 							fill="currentColor"
 							className="bi bi-slack"
 							viewBox="0 0 16 16"
@@ -44,12 +44,12 @@ export default function Footer() {
 						</svg>
 					</a>
 				</div>
-				<div className="col-3 badge">
+				<div className="col-2 badge">
 					<a href="" className="border rounded-circle">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="32"
-							height="32"
+							width="24"
+							height="24"
 							fill="currentColor"
 							className="bi bi-envelope"
 							viewBox="0 0 16 16"
