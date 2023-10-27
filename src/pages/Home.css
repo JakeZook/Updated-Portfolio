@@ -1,3 +1,9 @@
+#header h1,
+#header-projects h1,
+#projects-table-header {
+	color: aqua;
+}
+
 #header {
 	padding: 0 2rem 0 2rem;
 	border-left: 5px solid var(--secondary-light);
@@ -7,7 +13,19 @@
 	margin: 1rem 0;
 }
 
-.circular-profile-pic {
+#header-projects {
+	padding: 0 2rem 2rem 0;
+	border-right: 5px solid var(--secondary-light);
+}
+
+#projects-table-header {
+	border-bottom: 5px solid var(--secondary-light);
+}
+
+.circular-profile-pic,
+.circular-pic,
+.gs-pic,
+.vc-pic {
 	width: 150px; /* Set your desired width and height */
 	height: 150px;
 	border-radius: 50%; /* Create a circular shape */
@@ -18,8 +36,23 @@
 	border: solid 0.1rem var(--secondary-light) !important;
 }
 
-.circular-profile-pic img {
-	max-width: 100%; /* Make sure the image doesn't exceed the container size */
+img {
+	max-width: 100%;
+	max-height: auto;
+}
+
+.circular-pic img {
+	max-width: 75%;
+	max-height: auto;
+}
+
+.gs-pic img {
+	max-width: 175%;
+	max-height: auto;
+}
+
+.vc-pic img {
+	max-width: 125%;
 	max-height: auto;
 }
 
@@ -28,19 +61,54 @@
 	background: transparent !important;
 	border: 2px solid var(--secondary-light) !important;
 	border-radius: 100px !important;
-	color: var(--secondary-light) !important;
+	color: aqua !important;
 	padding: 10px 20px !important;
 	font-size: 0.75rem !important;
+	text-decoration: none !important;
+	font-size: 1rem !important;
 }
 
 .transparent-button:hover {
-	color: var(--light) !important;
+	color: aquamarine !important;
 	-webkit-box-shadow: 0px 25px 5px rgba(255, 255, 255, 0.9);
 	-moz-box-shadow: 0px 0px 25px 5px rgba(255, 255, 255, 0.9);
 	box-shadow: 0px 0px 25px 5px rgba(255, 255, 255, 0.9);
 	cursor: none;
 }
 
-button {
-	z-index: 1;
+.card {
+	color: var(--secondary-light) !important;
+	background-color: var(--background-color) !important;
+	z-index: 0;
+	border-radius: 20px;
+}
+
+.card .card a {
+	margin: 0 1rem !important;
+}
+
+.card h5 {
+	font-size: 1rem;
+}
+
+.card p {
+	font-size: 1rem;
+}
+
+.card ul {
+	padding: 0;
+}
+
+.card li {
+	list-style: none;
+}
+
+.card-buttons a {
+	margin: 0 2rem !important;
+}
+
+@media only screen and (max-width: 993px) {
+	#header {
+		margin-bottom: 2rem;
+	}
 }

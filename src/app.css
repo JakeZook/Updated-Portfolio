@@ -56,6 +56,11 @@ nav button:hover {
 	background-color: var(--secondary-light) !important;
 }
 
+.navbar-brand {
+	margin: 0 !important;
+	padding: 1rem !important;
+}
+
 .hoverable {
 	display: inline-block;
 	backface-visibility: hidden;
@@ -107,12 +112,26 @@ nav button:hover {
 .badge a {
 	color: var(--secondary-light);
 	border-color: transparent !important;
+	padding: 0 !important;
 }
 
 .badge a:hover {
 	color: var(--light);
 	border-color: transparent !important;
-	-webkit-box-shadow: 0px 45px 25px rgba(255, 255, 255, 0.9);
-	-moz-box-shadow: 0px 0px 45px 25px rgba(255, 255, 255, 0.9);
-	box-shadow: 0px 0px 45px 25px rgba(255, 255, 255, 0.9);
+	background-color: transparent !important;
+	-webkit-box-shadow: 0px 25px 5px rgba(255, 255, 255, 0.9);
+	-moz-box-shadow: 0px 0px 25px 5px rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 0px 25px 5px rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (max-width: 993px) {
+	.navbar-nav {
+		background-color: var(--background-color);
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.navbar-brand {
+		margin-right: 3.75rem !important;
+	}
 }
