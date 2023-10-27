@@ -2,12 +2,31 @@
 	margin-top: 1rem !important;
 }
 
+.list h6 {
+	color: aqua !important;
+}
+
+.sub {
+	color: #ffff00 !important;
+}
+
 .langList {
 	list-style: none !important;
 	padding: 0 !important;
 }
 
 #workHistory h6,
-#education h6 {
-	color: var(--secondary-light) !important;
+#education h6,
+#otherInfo h6 {
+	color: #ffff00 !important;
+}
+
+#workHistory h5,
+#education h5,
+#otherInfo h5 {
+	color: aqua !important;
+}
+
+.bio-heading {
+	color: #ffff00 !important;
 }

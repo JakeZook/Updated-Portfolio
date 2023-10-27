@@ -1,9 +1,11 @@
+import "./TopProjects.css";
+
 export default function TopProjects() {
 	return (
 		<div className="row d-flex justify-content-center text-center">
 			<div className="card col-lg-3 m-4">
 				<div className="card-body">
-					<h5 className="card-title">Shred N' Style</h5>
+					<h5 className="card-title project-title">Shred N' Style</h5>
 					<p className="card-text">Winter Sports E-Commerce Site</p>
 					<div className="d-flex flex-column">
 						<div className="circular-pic mx-auto mb-3">
@@ -12,7 +14,7 @@ export default function TopProjects() {
 								alt=""
 							/>
 						</div>
-						<h5>Technologies:</h5>
+						<h5 className="tech">Technologies:</h5>
 						<ul>
 							<li>HTML - CSS</li>
 							<li>JavaScript - Bootstrap</li>
@@ -42,7 +44,7 @@ export default function TopProjects() {
 			</div>
 			<div className="card col-lg-3 m-4">
 				<div className="card-body">
-					<h5 className="card-title">Game Seekers</h5>
+					<h5 className="card-title project-title">Game Seekers</h5>
 					<p className="card-text">Video Game Recommendation App</p>
 					<div className="d-flex flex-column">
 						<div className="gs-pic mx-auto mb-3">
@@ -51,7 +53,7 @@ export default function TopProjects() {
 								alt=""
 							/>
 						</div>
-						<h5>Technologies:</h5>
+						<h5 className="tech">Technologies:</h5>
 						<ul>
 							<li>HTML</li>
 							<li>CSS</li>
@@ -81,7 +83,7 @@ export default function TopProjects() {
 			</div>
 			<div className="card col-lg-3 m-4">
 				<div className="card-body">
-					<h5 className="card-title">ZookChat</h5>
+					<h5 className="card-title project-title">ZookChat</h5>
 					<p className="card-text">Video and Text Chat Application</p>
 					<div className="d-flex flex-column">
 						<div className="vc-pic mx-auto mb-3">
@@ -90,7 +92,7 @@ export default function TopProjects() {
 								alt=""
 							/>
 						</div>
-						<h5>Technologies:</h5>
+						<h5 className="tech">Technologies:</h5>
 						<ul>
 							<li>???</li>
 							<li>???</li>

@@ -4,7 +4,7 @@ export default function Bio() {
 	return (
 		<div>
 			<div className="row d-flex justify-content-center mt-5 mb-5 pb-5">
-				<h1 className="text-center mb-5">Bio</h1>
+				<h1 className="text-center mb-5 bio-heading">Bio</h1>
 				<div className="col-lg-3 col-sm-12" id="header">
 					<h1>Jake Zook</h1>
 					<p id="header-bio">
@@ -65,7 +65,7 @@ export default function Bio() {
 					</p>
 				</div>
 			</div>
-			<h2 className="text-center mb-5">Relevant Experience:</h2>
+			<h2 className="text-center mb-5 sub">Relevant Experience:</h2>
 			<div
 				className="d-flex justify-content-center text-center"
 				id="workHistory"
@@ -91,7 +91,7 @@ export default function Bio() {
 					</div>
 				</div>
 			</div>
-			<h2 className="text-center mb-5">Education:</h2>
+			<h2 className="text-center mb-5 sub">Education:</h2>
 			<div className="d-flex justify-content-center text-center" id="education">
 				<div className="card">
 					<div className="card-body">
@@ -112,8 +112,8 @@ export default function Bio() {
 					</div>
 				</div>
 			</div>
-			<h2 className="text-center mt-5 mb-5">Other Info:</h2>
-			<div className="d-flex justify-content-center text-center" id="education">
+			<h2 className="text-center mt-5 mb-5 sub">Other Info:</h2>
+			<div className="d-flex justify-content-center text-center" id="otherInfo">
 				<div className="card">
 					<div className="card-body">
 						<h5 className="card-title mb-2">Other Proficiencies:</h5>

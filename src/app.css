@@ -142,7 +142,7 @@ footer a {
 }
 
 footer a:hover {
-	color: var(--background-color);
+	color: aqua;
 }
 
 footer svg {
@@ -169,5 +169,9 @@ footer svg {
 
 	#dropdown-badges {
 		display: flex !important;
+	}
+
+	main {
+		margin: 0 !important;
 	}
 }

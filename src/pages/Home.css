@@ -76,37 +76,6 @@ img {
 	cursor: none;
 }
 
-.card {
-	color: var(--secondary-light) !important;
-	background-color: var(--background-color) !important;
-	z-index: 0;
-	border-radius: 20px;
-}
-
-.card .card a {
-	margin: 0 1rem !important;
-}
-
-.card h5 {
-	font-size: 1rem;
-}
-
-.card p {
-	font-size: 1rem;
-}
-
-.card ul {
-	padding: 0;
-}
-
-.card li {
-	list-style: none;
-}
-
-.card-buttons a {
-	margin: 0 0.5rem !important;
-}
-
 @media only screen and (max-width: 993px) {
 	#header {
 		margin-bottom: 2rem;

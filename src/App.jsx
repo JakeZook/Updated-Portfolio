@@ -6,13 +6,15 @@ import Footer from "./components/Footer";
 import Particles from "./Utils/Particles";
 import CursorGlow from "./Utils/CursorGlow";
 
+import "./app.css";
+
 function App() {
 	return (
 		<div>
 			<Particles id="tsparticles" />
 			<CursorGlow />
 			<Nav />
-			<main className="m-5 p-5">
+			<main className="p-5">
 				<Outlet />
 			</main>
 			<Footer />
