@@ -11,7 +11,11 @@ export default function Nav() {
 						id="nav-badges"
 					>
 						<div className="badge d-flex">
-							<a href="" className="border rounded-circle">
+							<a
+								href="http://www.linkedin.com/in/jake-zook-b27992222"
+								className="border rounded-circle"
+								target="_blank"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="32"
@@ -25,7 +29,11 @@ export default function Nav() {
 							</a>
 						</div>
 						<div className="badge d-flex">
-							<a href="" className="border rounded-circle">
+							<a
+								href="https://github.com/JakeZook"
+								className="border rounded-circle"
+								target="_blank"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="32"
@@ -39,7 +47,11 @@ export default function Nav() {
 							</a>
 						</div>
 						<div className="badge d-flex">
-							<a href="" className="border rounded-circle">
+							<a
+								href="https://duvirtfsfft08-oss1043.slack.com/team/U05NC072X6C"
+								className="border rounded-circle"
+								target="_blank"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="32"
@@ -53,7 +65,11 @@ export default function Nav() {
 							</a>
 						</div>
 						<div className="badge d-flex">
-							<a href="" className="border rounded-circle">
+							<a
+								href="mailto: jakezook01@gmail.com"
+								className="border rounded-circle"
+								target="_blank"
+							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="32"
@@ -104,7 +120,11 @@ export default function Nav() {
 								id="dropdown-badges"
 							>
 								<div className="badge d-flex">
-									<a href="" className="border rounded-circle">
+									<a
+										href="http://www.linkedin.com/in/jake-zook-b27992222"
+										className="border rounded-circle"
+										target="_blank"
+									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="32"
@@ -118,7 +138,11 @@ export default function Nav() {
 									</a>
 								</div>
 								<div className="badge d-flex">
-									<a href="" className="border rounded-circle">
+									<a
+										href="https://github.com/JakeZook"
+										className="border rounded-circle"
+										target="_blank"
+									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="32"
@@ -132,7 +156,11 @@ export default function Nav() {
 									</a>
 								</div>
 								<div className="badge d-flex">
-									<a href="" className="border rounded-circle">
+									<a
+										href="https://duvirtfsfft08-oss1043.slack.com/team/U05NC072X6C"
+										className="border rounded-circle"
+										target="_blank"
+									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="32"
@@ -146,7 +174,11 @@ export default function Nav() {
 									</a>
 								</div>
 								<div className="badge d-flex">
-									<a href="" className="border rounded-circle">
+									<a
+										href="mailto: jakezook01@gmail.com"
+										className="border rounded-circle"
+										target="_blank"
+									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
 											width="32"
