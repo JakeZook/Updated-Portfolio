@@ -104,11 +104,21 @@ img {
 }
 
 .card-buttons a {
-	margin: 0 2rem !important;
+	margin: 0 0.5rem !important;
 }
 
 @media only screen and (max-width: 993px) {
 	#header {
 		margin-bottom: 2rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.card-buttons {
+		flex-direction: column;
+	}
+
+	.card-buttons a {
+		margin-top: 1rem !important;
 	}
 }
