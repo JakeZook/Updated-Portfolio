@@ -1,4 +1,19 @@
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+
+import Contact from "./ContactModal";
+
 export default function Nav() {
+	const [showContactModal, setShowContactModal] = useState(false);
+
+	const openContactModal = () => {
+		setShowContactModal(true);
+	};
+
+	const closeContactModal = () => {
+		setShowContactModal(false);
+	};
+
 	return (
 		<div className="fixed-top">
 			<nav className="navbar navbar-expand-lg d-flex">
@@ -109,7 +124,7 @@ export default function Nav() {
 							<a className="nav-link hoverable" href="/Projects">
 								Projects
 							</a>
-							<a className="nav-link hoverable" href="#">
+							<a className="nav-link hoverable" onClick={openContactModal}>
 								Contact
 							</a>
 							<a className="nav-link hoverable" href="#">
@@ -196,6 +211,7 @@ export default function Nav() {
 					</div>
 				</div>
 			</nav>
+			<Contact show={showContactModal} onClose={closeContactModal} />
 		</div>
 	);
 }

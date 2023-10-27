@@ -1,0 +1,32 @@
+.modal-content {
+	color: white !important;
+	background-color: var(--background-color) !important;
+}
+
+.modal-header {
+	margin: 0 !important;
+	padding-bottom: 0 !important;
+	border-bottom: none !important;
+
+	text-align: center !important;
+}
+
+.modal-footer {
+	border: none !important;
+	justify-content: center !important;
+}
+
+.btn-close {
+	margin-left: 8.5rem !important;
+	color: white !important;
+}
+
+.form {
+	margin: 1rem 0 !important;
+
+	color: aqua !important;
+}
+
+.contact h4 {
+	color: #ffff00 !important;
+}
