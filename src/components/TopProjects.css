@@ -36,3 +36,7 @@
 .tech {
 	color: aqua;
 }
+
+#langHeader {
+	color: aqua !important;
+}

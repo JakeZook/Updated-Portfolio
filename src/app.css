@@ -48,8 +48,7 @@ nav a {
 }
 
 nav button {
-	border: none;
-	background-color: white !important;
+	background-color: var(--secondary-light) !important;
 }
 
 nav button:hover {

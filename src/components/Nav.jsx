@@ -4,7 +4,7 @@ export default function Nav() {
 			<nav className="navbar navbar-expand-lg d-flex">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="/">
-						Jake Zook
+						<img src="Assets\favicon\favicon.ico" alt="" />
 					</a>
 					<div
 						className="text-center d-flex justify-content-center m-2"
