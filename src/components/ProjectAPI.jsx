@@ -34,7 +34,6 @@ const GithubRepos = () => {
 					}
 				}
 
-				console.log(sortedRepos);
 				setRepos(sortedRepos);
 			} catch (error) {
 				console.error("Error fetching GitHub repositories", error);

@@ -17,7 +17,7 @@
 }
 
 .btn-close {
-	margin-left: 8.5rem !important;
+	margin-left: 8.25rem !important;
 	color: white !important;
 }
 
@@ -29,4 +29,8 @@
 
 .contact h4 {
 	color: #ffff00 !important;
+}
+
+.error {
+	color: red !important;
 }
