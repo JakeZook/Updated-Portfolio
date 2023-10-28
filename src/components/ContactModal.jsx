@@ -18,6 +18,21 @@ export default function Contact(props) {
 	const handleSubmit = () => {
 		if (name && email && message) {
 			if (isEmailValid(email)) {
+				fetch("/sendEmail", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify({ name, email, message }),
+				})
+					.then((response) => response.json())
+					.then((data) => {
+						console.log(data);
+					})
+					.catch((error) => {
+						console.error("Error:", error);
+					});
+
 				setName("");
 				setEmail("");
 				setMessage("");
