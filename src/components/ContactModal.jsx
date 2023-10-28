@@ -9,6 +9,7 @@ export default function Contact(props) {
 	const [message, setMessage] = useState("");
 	const [showFieldError, setShowFieldError] = useState(false);
 	const [showEmailError, setShowEmailError] = useState(false);
+	const [showConfirmation, setShowConfirmation] = useState(false);
 
 	const isEmailValid = (email) => {
 		const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
@@ -38,16 +39,16 @@ export default function Contact(props) {
 				setMessage("");
 				setShowFieldError(false);
 				setShowEmailError(false);
+				setShowConfirmation(true);
 			} else {
+				setShowConfirmation(false);
 				setShowFieldError(false);
 				setShowEmailError(true);
 			}
 		} else {
+			setShowConfirmation(false);
 			setShowFieldError(true);
 		}
-
-		// You can now proceed with the form submission logic here
-		// For example, you can make an API request to send the form data
 	};
 
 	return (
@@ -65,6 +66,9 @@ export default function Contact(props) {
 				)}
 				{showEmailError && (
 					<h6 className="text-center error">Please enter a valid email!</h6>
+				)}
+				{showConfirmation && (
+					<h6 className="text-center confirmation">Email Sent!</h6>
 				)}
 				<Form>
 					<Form.Group className="form" controlId="formName">

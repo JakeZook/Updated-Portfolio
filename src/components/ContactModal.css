@@ -34,3 +34,7 @@
 .error {
 	color: red !important;
 }
+
+.confirmation {
+	color: rgb(14, 255, 14) !important;
+}
