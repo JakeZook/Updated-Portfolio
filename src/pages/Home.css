@@ -1,7 +1,11 @@
 #header h1,
 #header-projects h1,
 #projects-table-header {
-	color: aqua;
+	color: #ffff00;
+}
+
+h2 {
+	color: aqua !important;
 }
 
 #header {
@@ -16,10 +20,6 @@
 #header-projects {
 	padding: 0 2rem 2rem 0;
 	border-right: 5px solid var(--secondary-light);
-}
-
-#projects-table-header {
-	border-bottom: 5px solid var(--secondary-light);
 }
 
 .circular-profile-pic,

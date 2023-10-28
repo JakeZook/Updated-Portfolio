@@ -52,7 +52,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="d-flex justify-content-center mt-5">
-				<h1 id="projects-table-header">Top Projects</h1>
+				<h1 id="projects-table-header">Top Projects:</h1>
 			</div>
 			<TopProjects />
 		</div>
