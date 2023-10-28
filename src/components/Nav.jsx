@@ -127,7 +127,11 @@ export default function Nav() {
 							<a className="nav-link hoverable" onClick={openContactModal}>
 								Contact
 							</a>
-							<a className="nav-link hoverable" href="#">
+							<a
+								className="nav-link hoverable"
+								href="Assets\resume.pdf"
+								download
+							>
 								Resume
 							</a>
 							<div
