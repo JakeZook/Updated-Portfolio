@@ -56,6 +56,10 @@ img {
 	max-height: auto;
 }
 
+#error h1 {
+	color: #ffff00 !important;
+}
+
 .transparent-button {
 	z-index: 1;
 	background: transparent !important;
