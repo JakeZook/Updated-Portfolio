@@ -70,6 +70,8 @@ img {
 	font-size: 0.75rem !important;
 	text-decoration: none !important;
 	font-size: 1rem !important;
+
+	cursor: none !important;
 }
 
 .transparent-button:hover {

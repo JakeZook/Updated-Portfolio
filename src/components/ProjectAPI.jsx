@@ -13,8 +13,7 @@ const GithubRepos = () => {
 					"https://api.github.com/users/JakeZook/repos",
 					{
 						headers: {
-							Authorization:
-								"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",
+							Authorization: import.meta.env.VITE_API,
 						},
 					}
 				);
