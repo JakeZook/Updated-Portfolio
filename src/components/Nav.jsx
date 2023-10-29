@@ -3,6 +3,9 @@ import { Button } from "react-bootstrap";
 
 import Contact from "./ContactModal";
 
+import icon from "../../Assets/favicon/favicon.ico";
+import resume from "../../Assets/resume.pdf";
+
 export default function Nav() {
 	const [showContactModal, setShowContactModal] = useState(false);
 
@@ -19,7 +22,7 @@ export default function Nav() {
 			<nav className="navbar navbar-expand-lg d-flex">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="/">
-						<img src="Assets\favicon\favicon.ico" alt="" />
+						<img src={icon} alt="" />
 					</a>
 					<div
 						className="text-center d-flex justify-content-center m-2"
@@ -127,11 +130,7 @@ export default function Nav() {
 							<a className="nav-link hoverable" onClick={openContactModal}>
 								Contact
 							</a>
-							<a
-								className="nav-link hoverable"
-								href="Assets\resume.pdf"
-								download
-							>
+							<a className="nav-link hoverable" href={resume} download>
 								Resume
 							</a>
 							<div

@@ -1,5 +1,6 @@
 import "./Home.css";
 import TopProjects from "../components/TopProjects";
+import profilePic from "../../Assets/pp.png";
 
 export default function Home() {
 	return (
@@ -15,7 +16,7 @@ export default function Home() {
 				</div>
 				<div className="col-lg-3 col-sm-12 d-flex text-center justify-content-around align-items-center flex-column">
 					<div className="circular-profile-pic mx-auto">
-						<img src="../../Assets/pp.PNG" alt="Picture of Jake Zook" />
+						<img src={profilePic} alt="Picture of Jake Zook" />
 					</div>
 					<a href="/bio" className="transparent-button m-2">
 						Learn More
