@@ -1,4 +1,5 @@
 import "./Bio.css";
+import profilePic from "../../Assets/pp.png";
 
 export default function Bio() {
 	return (
@@ -17,7 +18,7 @@ export default function Bio() {
 				</div>
 				<div className="col-lg-3 col-sm-12 d-flex text-center justify-content-around align-items-center flex-column">
 					<div className="circular-profile-pic mx-auto">
-						<img src="../../Assets/pp.PNG" alt="Picture of Jake Zook" />
+						<img src={profilePic} alt="Picture of Jake Zook" />
 					</div>
 					<div className="list">
 						<h6>Languages I know:</h6>
