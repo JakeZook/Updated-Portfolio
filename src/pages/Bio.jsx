@@ -1,5 +1,6 @@
 import "./Bio.css";
 import profilePic from "../../Assets/pp.png";
+import LOR from "../../Assets/LOR.pdf";
 
 export default function Bio() {
 	return (
@@ -13,7 +14,10 @@ export default function Bio() {
 						dive into any project. Effective at solving unique problems in a
 						creative and constructive way. Known for being extremely hard
 						working, an exceptionally quick learner, and someone who always
-						pushes the boundaries in creativity and productivity.
+						pushes the boundaries in creativity and productivity. Eager to
+						leverage technical skills and passion for software development to
+						contribute to dynamic projects and collaborate with a highly skilled
+						team.
 					</p>
 				</div>
 				<div className="col-lg-3 col-sm-12 d-flex text-center justify-content-around align-items-center flex-column">
@@ -56,13 +60,15 @@ export default function Bio() {
 				<div className="col-lg-3 col-sm-12 text-end" id="header-projects">
 					<h1>Background</h1>
 					<p id="header-bio">
-						I have always enjoyed working with tech. My interest in coding came
-						from the desire to develop my own video games. I started learning
-						C++ and made simple terminal games before deciding to take on the
-						Unity Engine. At the time, I was also working with tech daily at my
-						job at an escape room where I helped build and maintain dozens of
-						props and puzzles that utilized Raspberry Pi and Arduino hardware
-						and software.
+						My passion for technology has been a constant in my life. My journey
+						into coding was sparked by a deep-seated desire to create my own
+						video games. I took my first steps by learning C++, crafting simple
+						terminal-based games. As my skills grew, I embraced the Unity
+						Engine. Simultaneously, I was immersed in the world of technology
+						through my job at an escape room, where I played a pivotal role in
+						constructing and managing numerous props and puzzles. These projects
+						relied on Raspberry Pi and Arduino hardware and software, further
+						fueling my fascination with the tech realm.
 					</p>
 				</div>
 			</div>
@@ -114,6 +120,11 @@ export default function Bio() {
 				</div>
 			</div>
 			<h2 className="text-center mt-5 mb-5 sub">Other Info:</h2>
+			<div className="d-flex justify-content-center">
+				<a className="transparent-button mb-5" href={LOR} download>
+					Letter of Recommendation
+				</a>
+			</div>
 			<div className="d-flex justify-content-center text-center" id="otherInfo">
 				<div className="card">
 					<div className="card-body">
